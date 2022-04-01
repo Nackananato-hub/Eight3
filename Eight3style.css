@@ -19,12 +19,13 @@ a {
 .container {
     max-width: 1170px;
     width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 .top-wrapper {
     padding: 180px 0px 100px 0px;
-    background-image:url(https://github.com/Nackananato-hub/Eight3/blob/main/MIZ19819007.jpg?raw=true);
+    background-image:url(./image/MIZ19819007.jpg);
     background-size: cover;
     color:orange;
     text-align: center;
@@ -71,11 +72,11 @@ a {
 }
 
 .btn-wrapper {
-    margin:100px 0px 100px -20px;
+    margin:100px 0px 100px 0px;
 }
 
 .fa {
-    margin: 0px 5px 0px -10px;
+    margin: 0px 5px 0px 0px;
 }
 
 header {
@@ -86,12 +87,12 @@ header {
 .logo {
     width:100px;
     margin-top: 15px;
-    margin-left: -120px;
+    
 }
 
 .header-right {
     float: right;
-    margin: -54px -80px 0px 0px;
+    margin: -54px 0px 0px 30px;
     background-color:rgb(109, 111, 112,0.8);
     transition: all 0.5s;
 }
@@ -122,7 +123,7 @@ header {
 }
 
 .heading h2 {
-    margin: 0px 0px 0px -40px;
+    margin: 0px 0px 0px 0px;
 }
 
 .lesson {
@@ -148,7 +149,7 @@ header {
 }
 
 .message-wrapper h2 {
-    margin-right: -50px;
+    margin-right: 0px;
 }
 
 .message {
@@ -167,7 +168,7 @@ header {
 
 footer img {
     width:125px;
-    margin-left: -120px;
+    margin-left: 0px;
     padding: 20px;
 }
 
@@ -175,5 +176,6 @@ footer p {
     float:right;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    margin-right: -30px;
+    margin-right: 0px;
 }
+
