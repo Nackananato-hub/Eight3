@@ -5,6 +5,14 @@
         margin-bottom: 50px;
     }
 
+    header {
+        width: 100%;
+    }
+
+    .top-wrapper {
+        width: 100%;
+    }
+    
     .top-wrapper h1{
         font-size: 100px;
     }
@@ -16,12 +24,31 @@
 }
 
 @media (max-width: 670px) {
+
     .lesson {
         width: 50%;
     }
 
+    header {
+        width: 100%;
+    }
+
+    
+
     footer {
         text-align: center;
+        margin-top: 0px;
+    }
+
+    .btn {
+        width: 50%;
+        margin: 10px 0px 0px 0px;
+    }
+
+
+    .top-wrapper{
+        text-align: center;
+        padding-top: 130px;
     }
 
     .top-wrapper h1 {
@@ -31,6 +58,8 @@
     .top-wrapper p {
         font-size: 14px;
     }
+
+
 
     
 }
