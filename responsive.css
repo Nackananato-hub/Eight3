@@ -59,7 +59,9 @@
         font-size: 14px;
     }
 
-
+     .message-wrapper {
+          width: 100%;
+     }
 
     
 }
